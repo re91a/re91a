@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 196" width="100%" role="img" aria-label="re91a ASCII terminal pulse matrix">
+  <defs>
+    <clipPath id="ascii-stats-clip">
+      <rect x="0" y="0" width="880" height="196" rx="12" ry="12" />
+    </clipPath>
+    <clipPath id="ascii-rain-clip">
+      <rect x="30" y="84" width="386" height="96" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ascii-stats-clip)">
+    <rect width="880" height="196" fill="#000000" />
+
+    <g fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">
+      <text x="14" y="22">+</text>
+      <text x="858" y="22">+</text>
+      <text x="14" y="184">+</text>
+      <text x="858" y="184">+</text>
+    </g>
+
+    <!-- Terminal Top Bar -->
+    <text x="34" y="32" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="600">~$ re91a --pulse --live</text>
+    <rect x="214.8" y="21" width="7" height="13" fill="#f8fafc">
+      <animate attributeName="opacity" values="1;0;1" dur="1.05s" calcMode="discrete" repeatCount="indefinite" />
+    </rect>
+
+    <text x="760" y="32" text-anchor="end" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">SIGNAL</text>
+    <g transform="translate(772, 32)">
+      <text x="0" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">.<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.00s" repeatCount="indefinite" /></text><text x="9" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">:<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.12s" repeatCount="indefinite" /></text><text x="18" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">*<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.24s" repeatCount="indefinite" /></text><text x="27" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">|<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.36s" repeatCount="indefinite" /></text><text x="36" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">*<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.48s" repeatCount="indefinite" /></text><text x="45" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">:<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.60s" repeatCount="indefinite" /></text><text x="54" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">.<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.72s" repeatCount="indefinite" /></text><text x="63" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">:<animate attributeName="opacity" values="0.2;1;0.2" dur="1.10s" begin="0.84s" repeatCount="indefinite" /></text>
+    </g>
+
+    <line x1="34" y1="46" x2="846" y2="46" stroke="#26262a" stroke-width="1" stroke-dasharray="3 4" />
+
+    <!-- Left: Calm Falling ASCII Raindrops -->
+    <g transform="translate(34, 72)">
+      <text x="0" y="0" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="1.2">01 // ACTIVITY PULSE</text>
+    </g>
+    <g clip-path="url(#ascii-rain-clip)" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="500">
+      
+        <g transform="translate(48, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.40s" begin="-0.40s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.40s" begin="-0.40s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(86, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="3.10s" begin="-1.80s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="3.10s" begin="-1.80s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">·</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(122, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.60s" begin="-0.90s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.60s" begin="-0.90s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">│</text>
+          </g>
+        </g>
+      
+        <g transform="translate(160, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="3.30s" begin="-2.50s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="3.30s" begin="-2.50s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(198, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.20s" begin="-1.20s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.20s" begin="-1.20s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">·</text>
+            <text x="0" y="25" fill="#f8fafc">│</text>
+          </g>
+        </g>
+      
+        <g transform="translate(234, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.90s" begin="-0.60s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.90s" begin="-0.60s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(272, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.50s" begin="-2.10s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.50s" begin="-2.10s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">│</text>
+          </g>
+        </g>
+      
+        <g transform="translate(310, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="3.20s" begin="-1.50s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="3.20s" begin="-1.50s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">·</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(346, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.30s" begin="-0.20s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.30s" begin="-0.20s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">|</text>
+          </g>
+        </g>
+      
+        <g transform="translate(382, 0)">
+          <g>
+            <animateTransform attributeName="transform" type="translate" from="0 56" to="0 190" dur="2.80s" begin="-1.90s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.16;0.82;1" dur="2.80s" begin="-1.90s" repeatCount="indefinite" />
+            <text x="0" y="0" fill="#94a3b8" opacity="0.35">·</text>
+            <text x="0" y="12" fill="#94a3b8" opacity="0.65">:</text>
+            <text x="0" y="25" fill="#f8fafc">│</text>
+          </g>
+        </g>
+      
+    </g>
+
+    <line x1="440" y1="62" x2="440" y2="174" stroke="#26262a" stroke-width="1" stroke-dasharray="3 4" />
+
+    <!-- Right: Non-coding Explorer Signal -->
+    <g transform="translate(468, 72)">
+      <text x="0" y="0" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="1.2">02 // EXPLORER SIGNAL</text>
+      <g transform="translate(0, 30)">
+        
+        <g transform="translate(0, 0)">
+          <text x="0" y="0" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11.5">[01]</text>
+          <text x="36" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Web3</text>
+          <text x="150" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" xml:space="preserve">▓▓▓▓▓▓▓▓▓▓▓···</text>
+          <text x="378" y="0" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="0.6">EXPLORE</text>
+        </g>
+      
+        <g transform="translate(0, 23)">
+          <text x="0" y="0" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11.5">[02]</text>
+          <text x="36" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Bug Bounty</text>
+          <text x="150" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" xml:space="preserve">▓▓▓▓▓▓▓▓▓▓····</text>
+          <text x="378" y="0" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="0.6">HUNTING</text>
+        </g>
+      
+        <g transform="translate(0, 46)">
+          <text x="0" y="0" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11.5">[03]</text>
+          <text x="36" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Experiments</text>
+          <text x="150" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" xml:space="preserve">▓▓▓▓▓▓▓▓▓▓▓▓··</text>
+          <text x="378" y="0" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="0.6">ACTIVE</text>
+        </g>
+      
+        <g transform="translate(0, 69)">
+          <text x="0" y="0" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11.5">[04]</text>
+          <text x="36" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Curiosity</text>
+          <text x="150" y="0" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="12" xml:space="preserve">▓▓▓▓▓▓▓▓▓▓▓▓▓▓</text>
+          <text x="378" y="0" text-anchor="end" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="0.6">ALWAYS</text>
+        </g>
+      
+      </g>
+    </g>
+
+    <pattern id="ascii-stats-scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+        <line x1="0" y1="0" x2="4" y2="0" stroke="rgba(255, 255, 255, 0.03)" stroke-width="1" />
+      </pattern>
+      <rect x="0" y="0" width="880" height="196" fill="url(#ascii-stats-scanlines)" pointer-events="none" />
+    <rect x="0.75" y="0.75" width="878.5" height="194.5" rx="11.5" ry="11.5" fill="none" stroke="#26262a" stroke-width="1.5" />
+  </g>
+</svg>
